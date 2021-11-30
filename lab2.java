@@ -1,7 +1,7 @@
 package com.company;
 
 
-class DiffieHellman{
+class lab2{
 
 
 
