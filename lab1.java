@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class CaesarCipherProgram {
+public class lab1 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
