@@ -7,7 +7,7 @@ class lab2{
 
     public static void main(String[] args)
     {
-        long P, G, x, a, y, b, ka, kb;
+        long P, G, x, a, y, b, kaa, kbb;
         P = 27;
         System.out.println("Значение P:" + P);
         G = 19;
@@ -20,7 +20,7 @@ class lab2{
         y = DiffieHellmanpower(G, b, P);
         ka = DiffieHellmanpower(y, a, P);
         kb = DiffieHellmanpower(x, b, P);
-        System.out.println("Секретный ключ Алисы:" + ka);
+        System.out.println("Секретннный ключ Алисы:" + ka);
         System.out.println("Секретный ключ Боба:" + kb);
     }
     private static long DiffieHellmanpower(long a, long b, long p)
